@@ -49,7 +49,7 @@ namespace Connect_to_USB_Camera2
             {
                 try
                 {
-                    _camera = new VideoCapture(0); // Camera index 0
+                    _camera = new VideoCapture(0); // Camera index 
                     _camera.ImageGrabbed += ProcessFrame;
                     _camera.Start();
 
